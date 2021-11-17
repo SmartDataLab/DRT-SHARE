@@ -7,7 +7,12 @@ backgroundColor: #fff
 backgroundImage: url('https://marp.app/assets/hero-background.svg')
 ---
 
-
+<style>
+img[alt~="center"] {
+  display: block;
+  margin: 0 auto;
+}
+</style>
 
 # 无人机三维重建与遥感迁移学习
 
@@ -96,7 +101,7 @@ Written by Marp and Mermaid in Markdown
 
 <!-- ![drop-shadow h:100](our_logo.png) -->
 
-![ drop-shadow w:600](company.png)
+![ drop-shadow center w:600](company.png)
 
 
 ---
@@ -183,7 +188,7 @@ Written by Marp and Mermaid in Markdown
 # 自动定损技术 cont.
 
 
-![drop-shadow h:450](benchmarkmodel.jpeg)
+![drop-shadow center h:450](benchmarkmodel.jpeg)
 
 ---
 
@@ -206,7 +211,7 @@ Written by Marp and Mermaid in Markdown
 ### 无人机三维重建技术
 
 ![drop-shadow h:300](3D_1.png)      ![drop-shadow h:300](3D_2.png)
-![drop-shadow w:400](3D_4.png)
+![drop-shadow center w:400](3D_4.png)
 
 ---
 
@@ -271,13 +276,13 @@ Written by Marp and Mermaid in Markdown
 - google earth 遥感
 
 ---
-
+ 
 ```
 今年7月中旬至8月初,受台风影响,河南发生罕见特大洪涝灾害，
 河南周边城市降水变化也同样明显,其中地铁受淹致使乘客丧生的新闻令人痛惜，
 关于灾情的监控与通信是一个养兵千日用兵一时的工作
 面对巨大的自然灾害，个体就好比沧海一粟那样渺小
-
+ss
 ```
 
 ---
@@ -286,7 +291,7 @@ Written by Marp and Mermaid in Markdown
 
 - 8月1日-3日 河南鹤壁 大疆Pro和RTX 路径斜拍(合成正投影和点云)
 
-![drop-shadow](https://img2.baidu.com/it/u=1764666523,3295480903&fm=26&fmt=auto)
+![drop-shadow center](https://img2.baidu.com/it/u=1764666523,3295480903&fm=26&fmt=auto)
 
 ---
 
@@ -349,7 +354,12 @@ Written by Marp and Mermaid in Markdown
 ---
 # 数据处理
 
-**连续拍摄图片**      -->  **点云** -->  
+
+
+<!-- ![drop-shadow center w:400](data_process.png) -->
+
+<img src="data_process.png" alt="center"/> 
+
 
 ![ drop-shadow  h:250](垂直拍摄.jpg) ![drop-shadow h:250](秦李庄村点云.PNG) ![drop-shadow h:250](红色用高程代替.PNG) 
 

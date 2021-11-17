@@ -1,0 +1,5 @@
+graph LR;
+    A[高程信息]-- Active Contour Model!! -->B[建筑物分割];
+    C[RGB]-- CNN -->B;
+    C-- 区域生长 -->D[路网分割];
+    C-- 区域生长 -->E[水源分割];

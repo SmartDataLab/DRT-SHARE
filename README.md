@@ -10,3 +10,7 @@ use marp
 to modify flow chart picture use mermaid
 
 `npm install -g mermaid.cli`
+
+get png by following command
+
+`mmdc -i  *.mmd -o *.png`

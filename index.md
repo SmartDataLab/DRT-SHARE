@@ -52,7 +52,12 @@ Written by Marp and Mermaid in Markdown
 <!-- https://emojipedia.org/twitter/ just coppy -->
 <!-- https://emojipedia.org/shortcodes/ -->
 <!-- https://alanhou.org/wechat-emoji/ -->
+<!-- _class: lead -->
+
 # 汇报内容
+
+![bg vertical right h:120](our_logo.png)
+![bg right:55% h:135](无人机社1.png)
 
 - :flushed: 背景与需求
 - :thinking: 现有技术与研究
@@ -175,6 +180,13 @@ Written by Marp and Mermaid in Markdown
 
 ---
 
+# 自动定损技术 cont.
+
+
+![drop-shadow h:450](benchmarkmodel.jpeg)
+
+---
+
 ```
 其中具体的模型和原理我们简要介绍一下，但不是本次分享的重点
 （xView2 使用的CNN模型）
@@ -191,31 +203,20 @@ Written by Marp and Mermaid in Markdown
 
 ---
 
-# 无人机三维重建技术
+### 无人机三维重建技术
 
-**3D Reconstruction**
-
-![drop-shadow w:600](3D_1.png)
-
----
-
-![drop-shadow w:600](3D_2.png)
-
+![drop-shadow h:300](3D_1.png)      ![drop-shadow h:300](3D_2.png)
+![drop-shadow w:400](3D_4.png)
 
 ---
 
+**相机模型**
 
-![drop-shadow w:600](3D_3.png)
-
-
----
-
-![drop-shadow w:600](3D_4.png)
+ ![drop-shadow h:450](3D_3.png) ![drop-shadow h:450](3D_5.png)
 
 
----
 
-![drop-shadow w:600](3D_5.png)
+
 
 ---
 
@@ -241,13 +242,6 @@ Written by Marp and Mermaid in Markdown
 <!-- https://www.sohu.com/a/347889620_100237201 -->
 
 <!-- https://zhuanlan.zhihu.com/p/54570516 -->
----
-
-
-
-```
-（ArcGis使用的相应的方法与方案）
-```
 
 ---
 
@@ -255,13 +249,13 @@ Written by Marp and Mermaid in Markdown
 
 结合两者得到更好灾害损坏评估。
 
-| 维度 | 遥感 | 无人机 |
+| 维度 | 卫星遥感 | 大疆无人机 |
 | :-: |  :-: |  :-: |
-| 采集时点 |  | |
-| 采集范围 |  |  | 
-| 采集质量 | |  |
-| 采集成本  |  |  |
-| 历史数据 |  |  |
+| 采集延时 | 通常15天以上复经  | 飞手前往目标地点 |
+| 采集范围 | 通常10^3到10^4km^2 | 飞行限高500m | 
+| 采集质量 | 分辨率米级 | 4K相机 |
+| 采集成本  | 限制交易 | 通常设备成本5w以内 |
+| 历史数据 | 有 | 无 |
 ---
 
 ```
@@ -322,23 +316,26 @@ Written by Marp and Mermaid in Markdown
 ---
 # 遥感数据（灾前）
 - Google Earth
-- 天地图（地方高清影像）
+    - 2017年5月
+    - 2018年2月
+    - 2019年12月
+    - 2021年1月
 
 <!-- <img src="无人机现场拍摄.jpg" alt/> -->
 
-![right:30% vertical bg w:400](2017年5月.jpg)
-![right:30% bg w:400](2018年2月.jpg)
-![right:30% bg w:400](2019年12月.jpg)
+![right:30% drop-shadow vertical bg w:350](2017年5月.jpg)
+![right:30% drop-shadow bg w:350](2018年2月.jpg)
+![right:30% drop-shadow bg w:350](2019年12月.jpg)
 
 ---
 
 # 无人机数据（灾后）
 
-- 正投影
-- 点云->建筑物分割
+![drop-shadow w:300](建筑工地.jpeg) ![drop-shadow w:300](村落植被.jpeg) 
+![drop-shadow h:300](坍塌土房.png)
 
-![right:40% vertical bg w:400](2021年1月.jpg)
-![right:40% bg w:400](无人机现场拍摄.jpg)
+![right:40% drop-shadow vertical bg w:400](2021年1月.jpg)
+![right:40% drop-shadow bg w:400](无人机现场拍摄.jpg)
 
 ---
 
@@ -351,6 +348,11 @@ Written by Marp and Mermaid in Markdown
 
 ---
 # 数据处理
+
+**连续拍摄图片**      -->  **点云** -->  
+
+![ drop-shadow  h:250](垂直拍摄.jpg) ![drop-shadow h:250](秦李庄村点云.PNG) ![drop-shadow h:250](红色用高程代替.PNG) 
+
 
 ---
 
@@ -405,6 +407,8 @@ Written by Marp and Mermaid in Markdown
 ---
 
 # 2.1 淹没面积
+
+![drop-shadow](flood_area.png)
 
 ---
 

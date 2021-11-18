@@ -356,9 +356,9 @@ ss
 
 
 
-<!-- ![drop-shadow center w:400](data_process.png) -->
+![drop-shadow center w:400](data_process.png)
 
-<img src="data_process.png" alt="center"/> 
+<!-- <img src="data_process.png" class="drop-shadow" alt="center"/>  -->
 
 
 ![ drop-shadow  h:250](垂直拍摄.jpg) ![drop-shadow h:250](秦李庄村点云.PNG) ![drop-shadow h:250](红色用高程代替.PNG) 
@@ -372,18 +372,24 @@ ss
 
 ---
 
+![bg right w:600 drop-shadow](semantic_seg.png)
+
 **1.语义分割**
-(遥感或无人机正投影图)
+
+
 
 - :smile: 建筑物分割
 - :smile: 路网分割
 - :smile: 水域分割
 
 
+
 ---
 
+
 **2.三维重建与灾情模拟与推演**
-(无人机)
+
+![center w:600 drop-shadow](flood_analysis.png)
 
 - :smile: 淹没面积
 - :smile: 淹没先后(模拟实验)
@@ -394,6 +400,8 @@ ss
     - 如何判定周边都被淹没了，每个房子周围
 
 ---
+
+![bg right w:500 drop-shadow](remote_transfer.png)
 
 **3.深度学习模型的自适应迁移**
 
@@ -418,7 +426,7 @@ ss
 
 # 2.1 淹没面积
 
-![drop-shadow](flood_area.png)
+![drop-shadow w:400](flood_area.png)
 
 ---
 
@@ -442,6 +450,8 @@ ss
 
 
 # 3.2 深度迁移
+
+![](picture_here.jpeg)
 
 ---
 
